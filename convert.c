@@ -11,6 +11,7 @@ static void write_bin32(uint32_t x, char *out) {
     }
     *out = '\0';
 }
+
 static int hex_val(char c) {
     if (c >= '0' && c <= '9') return c - '0';
     if (c >= 'A' && c <= 'F') return 10 + (c - 'A');
